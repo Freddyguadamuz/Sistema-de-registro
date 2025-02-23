@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Registro de Juegos</title>
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>🎁 Organizador de Amigo Secreto</h1>
+        <p>Ingresa los nombres de los participantes uno por uno:</p>
+        
+        
+        <div class="input-group">
+            <input type="text" id="nombre" placeholder="Escribe un nombre">
+            <button id="adicionar">➕ Adicionar</button>
+        </div>
+
+        
+        <h2>Lista de Participantes:</h2>
+        <ul id="lista-nombres"></ul>
+
+        
+        <div class="botones">
+            <button id="sortear">🎉 Sortear Amigo</button>
+            <button id="reiniciar">🔄 Reiniciar Juego</button>
+        </div>
+
+       
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
